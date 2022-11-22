@@ -2,7 +2,7 @@
 Estudo para um card de produtos orgânicos.
 
 Preview poject: 
-https://giovanerichard.github.io/products-card
+https://giovanerichard.github.io/products-card/
 
 Preview desktop:
 
