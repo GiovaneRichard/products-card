@@ -1,5 +1,8 @@
 # products-card
-Estudo para um card de produtos orgânicos
+Estudo para um card de produtos orgânicos.
+
+Preview poject: 
+https://giovanerichard.github.io/products-card
 
 Preview desktop:
 
