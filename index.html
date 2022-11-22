@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <title>DOM | Estudos</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+
+    <div class="container">
+        <h3 class="title">Produtos Orgânicos</h3>
+
+        <div class="products-container">
+            <div class="product" data-name="p-1">
+                <img src="assets/images/1.png" alt="product">
+                <h3>Morangos</h3>
+                <div class="price">R$ 2,50</div>
+            </div>
+
+            <div class="product" data-name="p-2">
+                <img src="assets/images/2.png" alt="product">
+                <h3>Cebola roxa</h3>
+                <div class="price">R$ 2,50</div>
+            </div>
+
+            <div class="product" data-name="p-3">
+                <img src="assets/images/3.png" alt="product">
+                <h3>Tomates</h3>
+                <div class="price">R$ 2,50</div>
+            </div>
+
+            <div class="product" data-name="p-4">
+                <img src="assets/images/4.png" alt="product">
+                <h3>Beringelas</h3>
+                <div class="price">R$ 2,50</div>
+            </div>
+
+            <div class="product" data-name="p-5">
+                <img src="assets/images/5.png" alt="product">
+                <h3>Brócules</h3>
+                <div class="price">R$ 2,50</div>
+            </div>
+
+            <div class="product" data-name="p-6">
+                <img src="assets/images/6.png" alt="product">
+                <h3>Batatas</h3>
+                <div class="price">R$ 2,50</div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- PREVIEW PRODUCTS -->
+    <div class="products-preview">
+
+        <div class="preview" data-target="p-1">
+            <i class="fas fa-times"></i>
+            <img src="assets/images/1.png" alt="">
+            <h3>Morangos Organicos</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <span>( 250 )</span>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, culpa!</p>
+            <div class="price">R$ 2,50</div>
+            <div class="buttons">
+                <a href="#" class="buy">comprar</a>
+                <a href="#" class="cart">Add ao carrinho</a>
+            </div>
+        </div>
+
+        <div class="product-preview">
+            <div class="preview " data-target="p-2">
+                <i class="fas fa-times"></i>
+                <img src="assets/images/2.png" alt="">
+                <h3>Cebola Organica</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>( 250 )</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, culpa!</p>
+                <div class="price">R$ 2,50</div>
+                <div class="buttons">
+                    <a href="#" class="buy">comprar</a>
+                    <a href="#" class="cart">Add ao carrinho</a>
+                </div>
+            </div>
+
+            <div class="product-preview">
+                <div class="preview" data-target="p-3">
+                    <i class="fas fa-times"></i>
+                    <img src="assets/images/3.png" alt="">
+                    <h3>Tomate Organicos</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>( 250 )</span>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, culpa!</p>
+                    <div class="price">R$ 2,50</div>
+                    <div class="buttons">
+                        <a href="#" class="buy">comprar</a>
+                        <a href="#" class="cart">Add ao carrinho</a>
+                    </div>
+                </div>
+
+                <div class="product-preview">
+                    <div class="preview" data-target="p-4">
+                        <i class="fas fa-times"></i>
+                        <img src="assets/images/4.png" alt="">
+                        <h3>Beringela Organica</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>( 250 )</span>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, culpa!</p>
+                        <div class="price">R$ 2,50</div>
+                        <div class="buttons">
+                            <a href="#" class="buy">comprar</a>
+                            <a href="#" class="cart">Add ao carrinho</a>
+                        </div>
+                    </div>
+
+                    <div class="product-preview">
+                        <div class="preview" data-target="p-5">
+                            <i class="fas fa-times"></i>
+                            <img src="assets/images/5.png" alt="">
+                            <h3>Brócolis Organico</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>( 250 )</span>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, culpa!</p>
+                            <div class="price">R$ 2,50</div>
+                            <div class="buttons">
+                                <a href="#" class="buy">comprar</a>
+                                <a href="#" class="cart">Add ao carrinho</a>
+                            </div>
+                        </div>
+
+                        <div class="product-preview">
+                            <div class="preview" data-target="p-6">
+                                <i class="fas fa-times"></i>
+                                <img src="assets/images/6.png" alt="">
+                                <h3>Batata Organica</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <span>( 250 )</span>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, culpa!</p>
+                                <div class="price">R$ 2,50</div>
+                                <div class="buttons">
+                                    <a href="#" class="buy">comprar</a>
+                                    <a href="#" class="cart">Add ao carrinho</a>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+
+
+                        <script src="assets/js/script.js"></script>
+</body>
+
+</html>
